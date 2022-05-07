@@ -1,0 +1,57 @@
+.register {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.register .top .wrapper {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top .loginButton {
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .top .registerButton{
+            
+    flex: 3;
+    height: 100%;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+.top input{
+    flex: 9;
+    height: 100%;
+    border: none;
+    padding: 0 10px;
+}
+.top .input {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 5px;
+}

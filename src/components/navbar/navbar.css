@@ -1,0 +1,78 @@
+.containers {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%,rgba(0,0,0,0,0.5) 50%);
+}
+
+.scrolled {
+    background-color: #0b0b0b;
+}
+.pimag {
+    height: 2rem;
+    width: 4rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+.containers .left {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-left: 4rem;
+    cursor: pointer;
+    
+}
+
+.containers .left span {
+    margin-left: 2rem;
+}
+
+.containers .right {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.containers .right span {
+    margin-left: 1rem;
+}
+.containers .right .icon {
+    cursor: pointer;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+
+.containers .right .profile {
+    margin-right: 3rem;
+
+}
+.containers .right .profile .options {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    display: none;
+}
+
+.containers .right .profile:hover .options {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background: black;
+    padding-right: .5rem;
+    height: 3rem;
+    width: 5rem;
+    border-radius: .4rem 0.4rem 1rem 1rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+    
+   
+   
+}

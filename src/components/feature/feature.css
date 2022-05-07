@@ -1,0 +1,69 @@
+.featured_info {
+    position: relative;
+    height: 80vh;
+}
+.featured_info img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.category {
+    gap: .5rem;
+    position: absolute;
+    top:90px;
+    left: 50px;
+    color: white;
+    align-items: center;
+    display: flex;
+    font-weight: 300;
+    
+}
+
+.info {
+    position: absolute;
+    left: 50px;
+    height: 20rem;
+    bottom: 23%;
+}
+.info img{
+    width:30% ;
+    height: 60%;
+}
+.info strong {
+    color: black;
+    padding: .2rem;
+}
+
+.info span {
+    color: white;    
+}
+.info p {
+    color: white;
+    max-width: 60rem;
+    margin-top: 0;
+}
+
+ .btn {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+   
+}
+
+.btn .play{
+    padding: .6rem;
+    border-radius: 12%;
+    border-color: blue;
+    cursor: pointer;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+
+}
