@@ -1,6 +1,7 @@
 .list {
     width: 100%;
     display: grid;
+   
     grid-template-rows: repeat(5,auto);
     gap: 1rem;
     margin-top: 1.5rem;
@@ -43,12 +44,26 @@
 
 .list .wrappers .containers {
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(10,1fr);
     gap: .7rem;  
     margin-left: 1rem;    
     transition: all 1s ease;
     margin-bottom: 1rem;
+    cursor: pointer;
+    border-radius: 4%;
     
     
+}
+
+.list .wrappers .containers :nth-child(n):hover{      
+    z-index: 999;  
+    -webkit-box-shadow: 2px 2px 8px 10px rgba(255,255,255,0.22); 
+    box-shadow: 2px 2px 8px 10px rgba(255,255,255,0.22);
+    border-radius: 2%;
+    top: -9;
+    position: relative; 
+    gap: 0.2rem;
+    transition: all .7s ease;
     
 }

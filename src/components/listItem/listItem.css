@@ -1,0 +1,127 @@
+.listItem {
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 4%;
+    position: relative;
+    
+    border: 5px solid green;
+    
+}
+.listItem:hover {
+    border: 5px solid yellow;
+  
+    display: grid;
+    grid-template-columns: auto;
+    border-radius: 2%;
+    top: -12rem;
+    position: absolute; 
+    transition: .5s ease;
+   
+
+}
+.listItem img {
+    border: 3px solid blue;
+    height: 100%;
+    border-radius: 4%;
+    margin: 0;
+    padding: 0;
+}
+
+.listItem img:hover {
+    border: 3px solid blue;
+    height: 120%;
+    border-radius: 4%;
+    margin: 0;
+    padding: 0;
+}
+
+.listItem .itemInfo {
+    display: flex;
+    flex-direction: column; 
+    padding: .2rem;
+    border: 5px solid red;
+    margin: 0;
+    padding: 0;
+  
+     
+ }
+ .listItem .itemInfo:hover {
+    display: flex;
+    flex-direction: column; 
+    padding: .2rem;
+    
+     
+ }
+ .listItem .itemInfo .icons {
+   
+    display: flex;
+    gap: .5rem;
+    padding-left: .4rem;
+    
+
+}
+.listItem .itemInfo .icon:hover{
+    border: 2px solid blue;
+    color: blue;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 16px;
+    
+    
+    
+}
+.listItem .itemInfo .icons:hover  {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: .5rem;
+    border-radius: 50%;
+    
+}
+
+.listItem .itemInfo .itemInfoTop{
+    
+    display: flex;
+    gap: .5rem;
+    padding-left: .4rem;
+    gap: 1rem;
+
+}
+.listItem .itemInfo .itemInfoTop:hover{
+    
+    display: flex;
+   
+  
+}
+.listItem .itemInfo .itemInfoTop:hover > span {
+    
+    display: flex;
+    margin-right: 1rem;
+   
+  
+}
+.listItem .itemInfo .desc {
+    padding-left: .4rem;
+}
+.listItem .itemInfo .desc:hover {
+    padding-left: .4rem;
+}
+.listItem .itemInfo .genre {
+    
+    display: flex;
+    padding-left: .4rem;
+}
+.listItem .itemInfo .genre:hover {
+   
+    display: flex;
+    color: blue;
+    padding-left: .4rem;
+    transition: .8s ease;
+    margin-left: 1rem;
+}
