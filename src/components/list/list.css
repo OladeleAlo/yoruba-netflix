@@ -1,19 +1,19 @@
 .list {
     width: 100%;
     display: grid;
-   
-    grid-template-rows: repeat(5,auto);
+    grid-template-rows: repeat(5,.5fr);
     gap: 1rem;
     margin-top: 1.5rem;
-    position: relative;   
+    position: relative; 
+   
 }
 
 .list .listTitle {
     color: white;
     font-size: 20px;
     font-weight: 500;
-    margin-left: 50px;
-    position: relative;
+    margin-left: 40px;
+    position: relative;  
    
 }
 
@@ -35,23 +35,26 @@
 }
 .list .wrappers .sliderArrow.left{
     left: 0;
+    z-index: 999;
    
 }
 .list .wrappers .sliderArrow.right{
-    right:51%;
+    right:56%;
+    z-index: 999;
    
 }
 
 .list .wrappers .containers {
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(10,1fr);
-    gap: .7rem;  
+    grid-template-columns: repeat(10,auto);
+    gap: .9rem;  
     margin-left: 1rem;    
     transition: all 1s ease;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     cursor: pointer;
     border-radius: 4%;
+    
     
     
 }
@@ -65,5 +68,6 @@
     position: relative; 
     gap: 0.2rem;
     transition: all .7s ease;
+    
     
 }

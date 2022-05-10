@@ -14,11 +14,11 @@ const List = () => {
     let distance = listRef.current.getBoundingClientRect().x -50;
     if(direction === "left" && slideNumber > 0){
       setSlideNumber(slideNumber -1);
-      listRef.current.style.transform = `translatex(${315 + distance}px)`;
+      listRef.current.style.transform = `translatex(${322 + distance}px)`;
     }
-    if(direction === "right" && slideNumber < 6 ){
+    if(direction === "right" && slideNumber < 7 ){
       setSlideNumber(slideNumber +1);
-      listRef.current.style.transform = `translatex(${-240 + distance}px)`;
+      listRef.current.style.transform = `translatex(${-251 + distance}px)`;
     }
   }
   return (

@@ -3,47 +3,53 @@
     place-items: center;
     grid-template-columns: auto;
     color: white;
-    background-color: black;
+    background-color: #333;
     cursor: pointer;
     border-radius: 4%;
     position: relative;
     
-    border: 5px solid green;
+    
+   
     
 }
 .listItem:hover {
-    border: 5px solid yellow;
-  
+   
     display: grid;
     grid-template-columns: auto;
     border-radius: 2%;
     top: -12rem;
     position: absolute; 
     transition: .5s ease;
+    background-color: #000;
    
 
 }
 .listItem img {
-    border: 3px solid blue;
+    
     height: 100%;
     border-radius: 4%;
     margin: 0;
+    margin-bottom: 1rem;
     padding: 0;
+    display: block;
+
 }
 
 .listItem img:hover {
-    border: 3px solid blue;
+    
     height: 120%;
     border-radius: 4%;
     margin: 0;
     padding: 0;
+    display: block;
+    
 }
 
 .listItem .itemInfo {
     display: flex;
     flex-direction: column; 
     padding: .2rem;
-    border: 5px solid red;
+   
     margin: 0;
     padding: 0;
   
@@ -53,6 +59,7 @@
     display: flex;
     flex-direction: column; 
     padding: .2rem;
+  
     
      
  }
@@ -70,13 +77,12 @@
     padding: 5px;
     border-radius: 50%;
     margin-right: 10px;
-    font-size: 16px;
-    
+    font-size: 16px;  
     
     
 }
 .listItem .itemInfo .icons:hover  {
-    
+   
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -111,6 +117,7 @@
 }
 .listItem .itemInfo .desc:hover {
     padding-left: .4rem;
+    
 }
 .listItem .itemInfo .genre {
     
@@ -118,7 +125,7 @@
     padding-left: .4rem;
 }
 .listItem .itemInfo .genre:hover {
-   
+    
     display: flex;
     color: blue;
     padding-left: .4rem;
